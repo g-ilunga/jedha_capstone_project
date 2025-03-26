@@ -20,3 +20,13 @@ Le prétraitement a donc consisté à :
 * Extraire les concentrations de polluants pour les communes de la région PACA
 * Transformer les données de concentration horaires en moyenne annuelle pour chacune commune
 * Enregistrer les données traitées dans un classeur Excel
+
+## <ins>Exploratory data analysis</ins>
+
+## <ins>Developpement des modèles</ins>
+
+## <ins>Resultats</ins>
+
+## <ins>Perspectives</ins>
+
+## <ins>Infos utiles</ins>
