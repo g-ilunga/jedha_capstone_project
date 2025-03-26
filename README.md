@@ -12,9 +12,11 @@ Les données de qualité de l’air ont été collectées sur la plateforme Cope
 * Résolution temporaire : donnée horaire
 * Polluants sélectionnés pour le projet : NO2, O3, PM2.5, PM10 et SO2
 * Année sélectionnée pour le projet : 2022
+
 Les données sont livrées au format NetCDF. C’est un format utilisé pour le stockage et le partage des données scientifiques et environnementale. Ce format permet d’ajouter une composante spatiale aux données. 
 Pour plus d’information sur les données utilisées : https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses?tab=overview
+
 Le prétraitement a donc consisté à :
-Extraire les concentrations de polluants pour les communes de la région PACA
-Transformer les données de concentration horaires en moyenne annuelle pour chacune commune
-Enregistrer les données traitées dans un classeur Excel
+* Extraire les concentrations de polluants pour les communes de la région PACA
+* Transformer les données de concentration horaires en moyenne annuelle pour chacune commune
+* Enregistrer les données traitées dans un classeur Excel
