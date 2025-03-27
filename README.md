@@ -25,6 +25,7 @@ Le prétraitement a donc consisté à :
 
 ## <ins>Développement des modèles</ins>
 Deux modèles d'apprentissage non supervisé ont été utilisé pour ce projet. A savoir Kmean et DBSCAN. Ces deux modèles sont utilisés pour faire du clustering. Ce qui est l'objectif poursuivi par ce projet. Les résultats des deux modèles seront comparés afin de determiner celui offrant la meilleure performance.
+
 La librairie Python Scikit-Learn a été utilisé pour développer ces modèles.
 **Kmean**
 Les paramêtres suivants ont été optimisé pour ameliorer les performances du model. Les valeurs retenues sont presentées dans le tableau ci-dessous.
@@ -34,6 +35,7 @@ Les paramêtres suivants ont été optimisé pour ameliorer les performances du 
 
 ## <ins>Resultats</ins>
 Kmean et DBSCAN ont produit respectivement XX clusters.
+
 Les deux modèles ont été comparés sur la base de 3 metrics. Les resultats sont presentés dans le tableau ci-dessous.
 
 ## <ins>Deployement</ins>
