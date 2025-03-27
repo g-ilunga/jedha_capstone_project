@@ -24,9 +24,29 @@ Le prétraitement a donc consisté à :
 ## <ins>Exploratory data analysis</ins>
 
 ## <ins>Developpement des modèles</ins>
+Deux modèles d'apprentissage non supervisé ont été utilisé pour ce projet. A savoir Kmean et DBSCAN. Ces deux modèles sont utilisés pour faire du clustering. Ce qui est l'objectif poursuivi par ce projet. Les résultats des deux modèles seront comparés afin de determiner celui offrant la meilleure performance.
+La librairie Python Scikit-Learn a été utilisé pour développer ces modèles.
+**Kmean**
+Les paramêtres suivants ont été optimisé pour ameliorer les performances du model. Les valeurs retenues sont presentées dans le tableau ci-dessous.
+
+**DBSCAN**
+Les paramêtres suivants ont été optimisé pour ameliorer les performances du model. Les valeurs retenues sont presentées dans le tableau ci-dessous.
 
 ## <ins>Resultats</ins>
+Kmean et DBSCAN ont produit respectivement XX clusters.
+Les deux modèles ont été comparés sur la base de 3 metrics. Les resultats sont presentés dans le tableau ci-dessous.
+
+## <ins>Deployement</ins>
+Les modèles ont été déployé en local en utilisant strimlit.
 
 ## <ins>Perspectives</ins>
+En termes des perspectives, chaque cluster peut faire l'objet d'une analyse approfondie afin de determiner les similarités de chaque commune composant le cluster. Les élements qui peuvent être comparé sont la taille de la commune, taille de la population, l'activité économique dominante, la presence d'industrie, l'utilisation des transport en commun (ou voiture individuelle), etc.
+
+Les modèles peuvent être plus optimisé afin d'être deployé en ligne. Cette version pourra inclure des options plus avancées.
 
 ## <ins>Infos utiles</ins>
+Le  repository de ce projet contient les dossiers suivants:
+* Data: les données utilisées pour entrainer le modèle.
+* Scripts: tous les scripts dévéloppés pour mener à bien le projet.
+* Models: les fichiers contenants les modèles developpés.
+* docker: les fichiers docker pour facilement permettre la reproduction du projet.
