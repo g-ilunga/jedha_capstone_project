@@ -28,10 +28,10 @@ Deux modèles d'apprentissage non supervisé ont été utilisé pour ce projet. 
 
 La librairie Python Scikit-Learn a été utilisé pour développer ces modèles.
 
-**Kmean**  
+***Kmean***  
 Les paramêtres suivants ont été optimisé pour ameliorer les performances du model. Les valeurs retenues sont presentées dans le tableau ci-dessous.
 
-**DBSCAN**  
+***DBSCAN***  
 Les paramêtres suivants ont été optimisé pour ameliorer les performances du model. Les valeurs retenues sont presentées dans le tableau ci-dessous.
 
 ## <ins>Resultats</ins>
