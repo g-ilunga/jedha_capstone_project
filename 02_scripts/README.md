@@ -1,5 +1,5 @@
-# Package requirements to run the scripts
-Python version used= 3.9
+# Packages Python necessaire pour faire tourner les scripts
+Version de Python utilisée: Python  3.9
 |       **Scripts**           | **Python packages** |
 |-------------------------|-----------------|
 |donwloading_data.ipynb   |cdsapi==0.7.5<br>os<br>zipfile  |
