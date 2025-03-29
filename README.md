@@ -49,6 +49,7 @@ En termes des perspectives, chaque cluster peut faire l'objet d'une analyse appr
 Les modèles peuvent être plus optimisé afin d'être deployé en ligne. Cette version pourra inclure des options plus avancées.
 
 ## <ins>Infos utiles</ins>
+Version de Python utilisée: Python 3.9
 Le repository de ce projet contient les dossiers suivants:
 * 01_data: les données utilisées pour entrainer le modèle.
 * 02_scripts: tous les scripts dévéloppés pour mener à bien le projet.
