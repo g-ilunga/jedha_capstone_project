@@ -54,5 +54,4 @@ Le repository de ce projet contient les dossiers suivants:
 * 01_data: les données utilisées pour entrainer le modèle.
 * 02_scripts: tous les scripts dévéloppés pour mener à bien le projet.
 * 03_EDA: Exploratory data analysis. Quelques graphs et stats pour mieux comprendre le jeu des données.
-* Models: les fichiers contenants les modèles developpés.
-* docker: les fichiers docker pour facilement permettre la reproduction du projet.
+
