@@ -1,8 +1,8 @@
 # Qualité de l'air en France ---Projet en cours....
 ## <ins>Contexte et objectif</ins>
 La qualité de l’air est un fort enjeu de santé publique car la dégradation de la qualité de l’air peut entrainer des effets négatifs sur la santé des populations. En particulier les personnes les plus vulnérables. D’où l’intérêt de constamment surveiller l’évolution de la qualité de l’air.
-Les données de qualité de l’air sont de plus en plus accessibles. A partir de ces données, on peut facilement étudier les tendances de qualité de l’air des villes. A l’échelle européenne, l’une des bases des données les plus utilisées est Copernicus Atmosphere Data store.
-L’objectif poursuivi par ce projet est de grouper les communes de la région PACA sur la base des concentrations des polluants émis par chacune d’elle en utilisant des méthodes de machine learning non supervisé.
+Les données de qualité de l’air sont de plus en plus accessibles. A partir de ces données, on peut facilement étudier les tendances de qualité de l’air des communes. A l’échelle européenne, l’une des bases des données les plus utilisées est Copernicus Atmosphere Data store.
+L’objectif poursuivi par ce projet est de grouper les communes de la France sur la base des concentrations des polluants émis par chacune d’elle en utilisant des méthodes de machine learning non supervisé.
 Les polluants d’intérêt sont le dioxyde d’azote (NO2), l’ozone (O3), les particules fines (PM2.5 et PM10) ainsi que le dioxyde de soufre. 
 
 ## <ins>Collecte des données  et pretraitement</ins>
@@ -17,7 +17,7 @@ Les données sont livrées au format NetCDF. C’est un format utilisé pour le 
 Pour plus d’information sur les données utilisées : https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses?tab=overview
 
 Le prétraitement a donc consisté à :
-* Extraire les concentrations de polluants pour les communes de la région PACA
+* Extraire les concentrations de polluants pour chaque commune.
 * Transformer les données de concentration horaires en moyenne annuelle pour chacune commune
 * Enregistrer les données traitées dans un classeur Excel
 
