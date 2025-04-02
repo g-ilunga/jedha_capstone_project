@@ -42,10 +42,12 @@ La carte ci-dessous est une illustration du resultat obtenu avec le modèle Kmea
 ![Picture1](https://github.com/user-attachments/assets/6c0357ed-fcda-4a21-a225-5dd62fa8ba5f)
 
 ## <ins>Déploiement</ins>
-Les modèles ont été déployé en local en utilisant streamlit. Une vidéo du deploiement est disponible dans le dossier : déploiement 
+Les modèles ont été déployé en local en utilisant streamlit. Une vidéo du deploiement est disponible dans le dossier : deployment
 
 ## <ins>Perspectives</ins>
-En termes des perspectives, chaque cluster peut faire l'objet d'une analyse approfondie afin de determiner les similarités de chaque commune composant le cluster. Les élements qui peuvent être comparé sont la taille de la commune, taille de la population, l'activité économique dominante, la presence d'industrie, l'utilisation des transport en commun (ou voiture individuelle), etc.
+* Chaque cluster peut faire l'objet d'une analyse approfondie afin de déterminer les similarités de chaque commune composant le cluster. Les éléments qui peuvent être comparé sont la taille de la population, l'activité économique dominante, la présence d'industries, l'utilisation des transports en commun (ou voiture individuelle), etc.
+* Faire tourner le modèle pour les années antérieures et ainsi que pour les données futures (automatiser).
+* Déployer en ligne pour le grand public avec une meilleure interface utilisateur.
 
 Les modèles peuvent être plus optimisé afin d'être deployé en ligne. Cette version pourra inclure des options plus avancées.
 
