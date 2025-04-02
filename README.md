@@ -8,7 +8,7 @@ L’objectif poursuivi par ce projet est de grouper les communes de la France su
 Les polluants d’intérêt sont le dioxyde d’azote (NO2), l’ozone (O3), les particules fines (PM2.5 et PM10) ainsi que le dioxyde de soufre (SO2). 
 
 ## <ins>Collecte des données  et pretraitement</ins>
-Les données de qualité de l’air ont été collectées sur la plateforme Copernicus Atmosphere Data store. Les caractéristiques du jeu des données sont présentées ci-dessous :
+Les données de qualité de l’air ont été collectées sur la plateforme Copernicus Atmosphere Data store à partir d'un API. Les caractéristiques du jeu des données sont présentées ci-dessous :
 * Nom du jeu de donnée : CAMS European air quality reanalyses
 * Couverture géographique : Europe
 * Résolution temporaire : donnée horaire
