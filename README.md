@@ -18,7 +18,7 @@ Les données de qualité de l’air ont été collectées sur la plateforme Cope
 Les données sont livrées au format NetCDF. C’est un format utilisé dans la communauté scientifique pour faciliter le stockage et le partage des données environnementales. 
 Pour plus d’information sur les données utilisées : https://ads.atmosphere.copernicus.eu/datasets/cams-europe-air-quality-reanalyses?tab=overview
 
-Le prétraitement a donc consisté à :
+Le prétraitement a consisté à :
 * Extraire les concentrations de polluants pour chaque commune.
 * Transformer les données de concentration horaire en moyenne annuelle pour chacune commune
 * Enregistrer les données traitées dans un classeur Excel
@@ -49,15 +49,13 @@ Les modèles ont été déployé en local en utilisant streamlit. Une vidéo du 
 * Faire tourner le modèle pour les années antérieures et ainsi que pour les données futures (automatiser).
 * Déployer en ligne pour le grand public avec une meilleure interface utilisateur.
 
-Les modèles peuvent être plus optimisé afin d'être deployé en ligne. Cette version pourra inclure des options plus avancées.
-
 ## <ins>Infos utiles</ins>
 Version de Python utilisée: Python 3.9
 Le repository de ce projet contient les dossiers suivants:
-* 01_data: les données utilisées pour entrainer le modèle.
+* 01_data: les données utilisées pour entrainer les modèles.
 * 02_scripts: tous les scripts dévéloppés pour mener à bien le projet.
 * 03_EDA: Exploratory data analysis. Quelques graphs et stats pour mieux comprendre le jeu des données.
-* 04_model_files: les fichiers relatifs au développement du model dont les resultats
+* 04_model_files: les fichiers relatifs au développement du model dont les resultats.
 * 05_deployment: la vidéo du déploiement
-* 06_presentation: le powerpoint de la présentation du projet lors du demo day
+* 06_presentation: le powerpoint de la présentation du projet lors du demo day.
 
