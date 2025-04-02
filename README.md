@@ -41,7 +41,7 @@ La carte ci-dessous est une illustration du resultat obtenu avec le modèle Kmea
 
 ![Picture1](https://github.com/user-attachments/assets/6c0357ed-fcda-4a21-a225-5dd62fa8ba5f)
 
-## <ins>Deployement</ins>
+## <ins>Déploiement</ins>
 Les modèles ont été déployé en local en utilisant streamlit. Une vidéo du deploiement est disponible dans le dossier : déploiement 
 
 ## <ins>Perspectives</ins>
