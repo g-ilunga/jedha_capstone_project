@@ -34,7 +34,7 @@ Les performances des deux modèles ont été comparés sur la base de 3 méthode
 |  Modèles  | Optimal n_cluster | Silhouete score | Davies Boulding score | Calinski Harabasz score |
 |-----------|-------------------|-----------------|-----------------------|-------------------------|
 | Kmean     | 3                | 0.35            | 0.95                  | 25822        |
-| DBSCAN    |                   |                 |                       |                         |
+| DBSCAN    | 2 (dont classe -1)   |    0.44      |    1.63            |               3377          |
 
 ## <ins>Resultats</ins>
 La carte ci-dessous est une illustration du resultat obtenu avec le modèle Kmean
