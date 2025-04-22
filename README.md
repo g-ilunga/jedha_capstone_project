@@ -1,4 +1,4 @@
-# Qualité de l'air en France (projet en cours)
+# Qualité de l'air en France
 ## <ins>Contexte et objectif</ins>
 La qualité de l’air est un enjeu fort de santé publique car la dégradation de la qualité de l’air peut entrainer des effets négatifs sur la santé des populations (en particulier les personnes les plus vulnérables). D’où l’intérêt de surveiller l’évolution de la qualité de l’air et prendre des mesures en faveur du maintien d'un bon état de qualité de l'air.
 
